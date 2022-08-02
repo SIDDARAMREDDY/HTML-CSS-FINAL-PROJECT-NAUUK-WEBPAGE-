@@ -56,7 +56,7 @@ header a img {
 }
 
 
-/* MEDIA QUERY page1 image,image & logo */
+/* MEDIA QUERY  image,image & logo */
 
 @media screen and (max-width:400px) {
     .logo {
@@ -67,12 +67,10 @@ header a img {
         padding: 20px 100px 40px 25px;
     }
     .page1 {
-        width: 390px;
+        width: 310px;
         height: 480px;
         background-size: contain;
         background-repeat: no-repeat;
-        padding-right: 0%;
-        margin-right: 0%;
     }
     header a {
         width: 60px;
@@ -83,7 +81,7 @@ header a img {
         width: 90px;
     }
     header {
-        width: 383px;
+        width: 302px;
     }
 }
 
@@ -512,8 +510,7 @@ header a img {
 
 @media screen and (max-width:400px) {
     .socialicons {
-        bottom: 30%;
-        right: 5%;
+        right: 25%;
         padding: 5px;
         line-height: 2.8;
         width: 37px;
@@ -536,8 +533,6 @@ header a img {
 @media screen and (max-width:400px) {
     .page2 {
         top: 72%;
-        width: 390;
-        right: 4.9%;
     }
 }
 
@@ -691,7 +686,7 @@ header a img {
 @media screen and (max-width:400px) {
     .page3 {
         top: 285%;
-        width: 390px;
+        width: 305px;
     }
 }
 
@@ -705,7 +700,6 @@ header a img {
 
 .page3-section1 img {
     width: 600px;
-    margin-left: 30px;
 }
 
 
@@ -838,7 +832,7 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page3-section3 {
-        width: 300px;
+        width: 270px;
         flex-direction: column;
         top: 410%;
     }
@@ -849,7 +843,6 @@ header a img {
     .page3-section3-block p {
         margin-left: -20%;
         font-size: 14px;
-        width: 300;
     }
 }
 
@@ -868,7 +861,7 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page4 {
-        width: 390px;
+        width: 300px;
         top: 510%;
         margin: 0%;
     }
@@ -1006,16 +999,16 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page4-section2 {
-        width: 300px;
+        width: 275px;
         box-sizing: border-box;
         flex-direction: column;
-        margin: 0px 0px 100px 10px;
+        margin: 0px 10px 100px 10px;
     }
     .page4-section2 .cards {
         width: 275px;
         height: 180px;
         margin-right: 0;
-        margin-left: 20%;
+        margin-left: 0%;
         padding-right: 0;
     }
     .cards-image {
@@ -1088,7 +1081,7 @@ header a img {
 
 @media screen and (max-width:400px) {
     .orange-section {
-        margin-top: -24.5%;
+        margin-top: -25%;
         margin-left: 0%;
         width: 320;
     }
