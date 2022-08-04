@@ -56,7 +56,7 @@ header a img {
 }
 
 
-/* MEDIA QUERY  image,image & logo */
+/* MEDIA QUERY page1 image,image & logo */
 
 @media screen and (max-width:400px) {
     .logo {
@@ -67,21 +67,24 @@ header a img {
         padding: 20px 100px 40px 25px;
     }
     .page1 {
-        width: 310px;
-        height: 480px;
-        background-size: contain;
+        width: 400PX;
+        height: 400px;
+        background-size: cover;
         background-repeat: no-repeat;
+        padding: 0%;
+        margin: 0%;
     }
     header a {
         width: 60px;
         height: 20px;
+        margin-bottom: 0%;
     }
     header a img {
-        margin-left: 25%;
+        margin: 0%;
         width: 90px;
     }
     header {
-        width: 302px;
+        width: 400px;
     }
 }
 
@@ -383,11 +386,12 @@ header a img {
 
 @media screen and (max-width:400px) {
     .section1 h1 {
-        font-size: 32px;
-        padding-top: 50px;
-        line-height: 1.2;
+        font-size: 36px;
+        padding-top: 70px;
+        line-height: 1.3;
         padding-left: 17px;
         font-weight: 600;
+        padding-right: 10px;
     }
     .section1 p {
         font-size: 16px;
@@ -510,7 +514,8 @@ header a img {
 
 @media screen and (max-width:400px) {
     .socialicons {
-        right: 25%;
+        bottom: 0%;
+        right: 0%;
         padding: 5px;
         line-height: 2.8;
         width: 37px;
@@ -532,7 +537,9 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page2 {
-        top: 72%;
+        top: 102%;
+        width: 390;
+        right: 4.9%;
     }
 }
 
@@ -572,23 +579,23 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page2-section1 {
-        width: 305px;
+        width: 400px;
     }
     .page2-section1 h1 {
         font-size: 50px;
         padding: 0%;
-        margin: 40px;
+        margin: 40px 40px 40px 20px;
     }
     .page2-section1 h2 {
-        font-size: 19px;
+        font-size: 30px;
         padding-right: 50px;
-        margin-left: 22%;
+        margin-left: 8%;
         padding-top: 23px;
     }
     .page2-section1 a {
-        left: 15%;
+        left: 10%;
         top: 8%;
-        font-size: 11px;
+        font-size: 14px;
     }
 }
 
@@ -639,21 +646,21 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page2-section2 {
-        width: 305px;
+        width: 400px;
         flex-direction: column;
-        margin-left: -65px;
-        margin-top: 60px;
+        margin-left: -105px;
+        margin-top: 90px;
         justify-content: space-between;
     }
     .page2-section2 h2 {
         font-size: 16px;
     }
     .para {
-        width: 250px;
-        font-size: 10px;
+        width: 300px;
+        font-size: 16px;
     }
     .page2-section2 a {
-        padding-left: 10px;
+        padding-left: 8px;
     }
     .page2-section2-block1 {
         padding-bottom: 70px;
@@ -685,8 +692,8 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page3 {
-        top: 285%;
-        width: 305px;
+        top: 370%;
+        width: 400px;
     }
 }
 
@@ -700,6 +707,7 @@ header a img {
 
 .page3-section1 img {
     width: 600px;
+    margin-left: 30px;
 }
 
 
@@ -707,10 +715,12 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page3-secton1 {
-        width: 305px;
+        width: 380px;
     }
     .page3-section1 img {
-        width: 260px;
+        width: 320px;
+        margin: 0%;
+        padding-left: 13px;
     }
 }
 
@@ -763,31 +773,31 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page3-section2 {
-        width: 279;
+        width: 400;
         margin-right: 0;
-        margin-top: 190px;
+        margin-top: 250px;
         margin-left: 0%;
     }
     .page3-section2 h1 {
         font-size: 55px;
         padding: 0%;
-        margin-left: -150px;
+        margin-left: -190px;
     }
     .page3-section2 h2 {
-        font-size: 19px;
+        font-size: 30px;
         padding-right: 50px;
-        margin-left: -126%;
+        margin-left: -136%;
         padding-top: 29px;
     }
     .page3-section2 p {
-        font-size: 14px;
+        font-size: 16px;
         margin-left: -140%;
         line-height: 25px;
     }
     .page3-section2 a {
         left: 18%;
         top: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -832,17 +842,23 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page3-section3 {
-        width: 270px;
+        width: 380px;
         flex-direction: column;
-        top: 410%;
+        top: 530%;
+    }
+    .page3-section3-block {
+        width: 390px;
     }
     .page3-section3-block h2 {
-        font-size: 40px;
-        margin-left: -20%;
+        font-size: 60px;
+        margin-left: 10%;
+        padding-bottom: 10px;
     }
     .page3-section3-block p {
-        margin-left: -20%;
-        font-size: 14px;
+        margin-left: 10%;
+        font-size: 16px;
+        width: 380;
+        padding-bottom: 20px;
     }
 }
 
@@ -861,8 +877,8 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page4 {
-        width: 300px;
-        top: 510%;
+        width: 400px;
+        top: 650%;
         margin: 0%;
     }
 }
@@ -903,7 +919,7 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page4-section1 {
-        width: 305px;
+        width: 380px;
         margin: 0%
     }
     .page4-section1 h1 {
@@ -913,16 +929,16 @@ header a img {
         margin-top: 40px;
     }
     .page4-section1 h2 {
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 50px;
         margin-left: 20%;
         padding-top: 29px;
     }
     .page4-section1 a {
-        font-size: 11px;
+        font-size: 14px;
         left: 0%;
         margin-left: 20%;
-        top: 5%;
+        top: 3.5%;
     }
 }
 
@@ -999,36 +1015,35 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page4-section2 {
-        width: 275px;
+        width: 400px;
         box-sizing: border-box;
         flex-direction: column;
-        margin: 0px 10px 100px 10px;
+        margin: 80px 0px 100px 12px;
     }
     .page4-section2 .cards {
-        width: 275px;
-        height: 180px;
-        margin-right: 0;
-        margin-left: 0%;
-        padding-right: 0;
+        width: 400px;
+        height: 400px;
+        margin: 0;
+        padding: 0;
     }
     .cards-image {
-        width: 250px;
-        height: 190px;
+        width: 350px;
+        height: 350px;
     }
     .cards-overlay {
-        width: 250px;
-        height: 190px;
+        width: 350px;
+        height: 350px;
         top: 0;
         left: 0;
         background-color: rgba(0, 0, 0, 0.3);
         transition: all 1s ease;
     }
     .view-projects {
-        width: 42px;
-        height: 55px;
+        width: 54px;
+        height: 65px;
     }
     .view-projects p {
-        font-size: 11px;
+        font-size: 13px;
     }
 }
 
@@ -1081,24 +1096,24 @@ header a img {
 
 @media screen and (max-width:400px) {
     .orange-section {
-        margin-top: -25%;
-        margin-left: 0%;
-        width: 320;
+        margin: 0%;
+        width: 400;
     }
     .orange-section-heading {
-        font-size: 20px;
+        font-size: 30px;
+        line-height: 1.5;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .paragraph-white {
         text-align: left;
-        margin-left: 30px;
-        font-size: 12px;
+        font-size: 16px;
+        padding-left: 30px;
     }
     .service-button {
         text-align: left;
-        margin-left: 30px;
-        font-size: 12px;
+        font-size: 14px;
+        padding-left: 30px;
     }
 }
 
@@ -1117,8 +1132,9 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page5 {
-        width: 307px;
-        top: 799%;
+        width: 400px;
+        top: 1289%;
+        margin: 0%;
     }
 }
 
@@ -1158,8 +1174,9 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page5-section1 {
-        width: 305px;
-        margin: 0%
+        width: 380px;
+        margin: 0%;
+        margin-bottom: 60px
     }
     .page5-section1 h1 {
         font-size: 55px;
@@ -1168,16 +1185,16 @@ header a img {
         margin-top: 40px;
     }
     .page5-section1 h2 {
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 50px;
         margin-left: 13%;
         padding-top: 27px;
     }
     .page5-section1 a {
-        font-size: 11px;
+        font-size: 14px;
         left: 0%;
         margin-left: 13%;
-        top: 5%;
+        top: 6%;
         margin-bottom: 0%;
     }
 }
@@ -1251,23 +1268,23 @@ header a img {
 @media screen and (max-width:400px) {
     .team-members-wrapper {
         flex-direction: column;
-        width: 220px;
-        margin-bottom: 0;
-        margin-right: 0%;
+        width: 400px;
+        margin: 0%;
+        margin-top: 20px;
         padding: 0%;
     }
     .member-card {
         margin-top: 0;
-        margin-left: -9px;
-        width: 220px;
+        margin-left: 70px;
+        width: 270px;
         margin-bottom: 30px;
     }
     .team-photo {
-        width: 240px;
+        width: 280px;
     }
     .team-content {
         width: 240px;
-        height: 52px;
+        height: 62px;
         padding: 0;
         margin-bottom: 0%;
     }
@@ -1282,7 +1299,7 @@ header a img {
         margin-top: 3px;
     }
     .social-vertical {
-        right: -13px;
+        right: -5px;
         bottom: 0%;
         padding: 5px;
         line-height: 3;
@@ -1306,9 +1323,9 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page6 {
-        width: 307px;
-        top: 1095%;
-        height: 260%;
+        width: 400px;
+        top: 1677%;
+        height: 320%;
     }
 }
 
@@ -1363,30 +1380,34 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page6-section1 {
-        width: 305px;
-        margin: 10%
+        width: 400px;
+        margin: 0%;
+        height: fit-content;
     }
     .page6-section1 h1 {
         font-size: 55px;
         padding: 0%;
-        margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 40px;
+        margin-left: 40px;
     }
     .page6-section1 h2 {
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 50px;
-        margin-left: 6%;
+        margin-left: 50px;
         padding-top: 29px;
         padding-bottom: 20px;
     }
     .page6-section1 p {
-        font-size: 14px;
-        margin-left: -70%;
+        font-size: 16px;
+        margin-left: 55px;
         line-height: 25px;
+        padding: 0%;
     }
     .page6-section1 a {
-        font-size: 11px;
-        margin-left: -70%;
+        margin-top: 40px;
+        font-size: 14px;
+        margin-left: -30%;
+        margin-bottom: 20px;
     }
 }
 
@@ -1406,7 +1427,7 @@ header a img {
     box-sizing: border-box;
     width: 49%;
     position: relative;
-    top: -5%;
+    top: -9%;
 }
 
 .testimonial-wrappers {
@@ -1471,11 +1492,15 @@ header a img {
     .page6-section2 {
         width: 200px;
         flex-direction: column;
-        top: 25%;
-        left: -60%;
+        top: 20%;
+        left: 0%;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin-left: 180px;
     }
     .two-items-wrapper {
-        width: 260px;
+        width: 300px;
         left: -40%;
         margin: 0%;
     }
@@ -1487,13 +1512,13 @@ header a img {
     }
     .testi-title {
         margin-top: -45px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .testi-paragraph {
         margin-top: 5px;
         margin-bottom: 0px;
         color: #919197;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 20px;
     }
     .second-grid {
@@ -1518,8 +1543,8 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page7 {
-        width: 300px;
-        top: 1380%;
+        width: 400px;
+        top: 2037%;
     }
 }
 
@@ -1571,26 +1596,26 @@ header a img {
 
 @media screen and (max-width:400px) {
     .page7-section1 {
-        width: 305px;
-        margin: 10%;
+        width: 400px;
+        margin: 0%;
     }
     .page7-section1 h1 {
         font-size: 55px;
         padding: 0%;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-top: -80px;
     }
     .page7-section1 h2 {
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 50px;
-        margin-left: 6%;
+        margin-left: 16%;
         padding-top: 29px;
         padding-bottom: 20px;
     }
     .page7-section1 a {
-        font-size: 11px;
-        margin-right: 65%;
-        margin-top: -10%;
+        font-size: 14px;
+        margin-right: 55%;
+        margin-top: -8%;
     }
 }
 
@@ -1724,16 +1749,19 @@ header a img {
 
 @media screen and (max-width:400px) {
     .blogs-wrapper {
-        width: 300px;
+        width: 380px;
         display: flex;
         flex-direction: column;
+        padding: 0%;
+        margin-left: 30px;
     }
     .blogs {
-        width: 250px;
+        width: 300px;
         margin-bottom: 30px;
+        margin-left: 40px;
     }
     .blog-image {
-        max-width: 255px;
+        max-width: 306px;
         margin-left: 0px;
     }
     .blog-content {
@@ -1741,18 +1769,21 @@ header a img {
         padding: 15px 36px 15px 40px;
     }
     .blog-title {
+        margin-top: 10px;
         margin-right: 0px;
-        margin-bottom: 10px;
-        font-size: 15px;
+        margin-bottom: 20px;
+        font-size: 30px;
         line-height: 16px;
     }
     .paragraph-white {
         margin-bottom: 10px;
-        font-size: 14px;
-        margin-left: -5px;
+        font-size: 17px;
+        margin-left: -35px;
     }
     .button-blog {
-        font-size: 10px;
+        font-size: 13px;
+        margin-left: -10px;
+        padding: 10px;
     }
     .blogs-date {
         top: -1.5%;
@@ -1761,20 +1792,21 @@ header a img {
     .meta-number {
         width: 60px;
         height: 60px;
-        font-size: 18px;
+        font-size: 20px;
     }
     .meta-month {
         width: 60px;
         height: 40px;
-        font-size: 11px;
+        font-size: 13px;
     }
     .blog-footer {
-        width: 304px;
-        margin-top: -20px;
+        width: 400px;
+        margin-top: -10px;
         flex-direction: column;
-        height: 400px;
-        padding-right: 0px;
-        margin-left: 5%;
+        height: 500px;
+        margin-left: 1%;
+        margin-right: 0%;
+        padding: 0px;
     }
     .blog-footer .blog-title {
         font-size: 16px;
@@ -1804,10 +1836,11 @@ header a img {
 
 @media screen and (max-width:400px) {
     .footer {
-        width: 308px;
-        top: 1682.1%;
+        width: 400px;
+        top: 2458.0%;
         left: 0%;
         height: 786px;
+        margin: 0%;
     }
 }
 
@@ -1819,7 +1852,7 @@ header a img {
 
 .footer-cards {
     box-sizing: border-box;
-    width: 27%;
+    width: 29%;
     margin: 0px 25px;
     padding-right: 50px;
 }
@@ -1833,27 +1866,27 @@ header a img {
 
 .blog-title.width {
     margin: 0;
-    width: 200px;
+    width: 380px;
     padding-right: 14px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .about-line {
     margin: 0;
-    width: 135%;
+    width: 137%;
     height: 1px;
     background-color: #ff6361;
 }
 
 .phone-text.blog {
-    font-size: 17px;
+    font-size: 22px;
     line-height: 25px;
     color: #f7f8fc;
 }
 
 .find {
     color: #f7f8fc;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 600;
 }
